@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background circle -->
+    <circle android:fillColor="@color/color_primary"
+            android:cx="24"
+            android:cy="24"
+            android:r="24" />
+    
+    <!-- Inner circle -->
+    <circle android:fillColor="@color/color_accent"
+            android:cx="24"
+            android:cy="24"
+            android:r="16" />
+    
+    <!-- D20 text -->
+    <path android:fillColor="@color/color_primary_dark"
+          android:pathData="M18,18h12v12h-12z" />
+    
+    <!-- Simple dice dots -->
+    <circle android:fillColor="@color/white"
+            android:cx="20"
+            android:cy="20"
+            android:r="1.5" />
+    <circle android:fillColor="@color/white"
+            android:cx="24"
+            android:cy="24"
+            android:r="1.5" />
+    <circle android:fillColor="@color/white"
+            android:cx="28"
+            android:cy="28"
+            android:r="1.5" />
+</vector> 
